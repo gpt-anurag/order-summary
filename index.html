@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="shortcut icon"
+      href="./assets/favicon-32x32.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="./styles/main.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Order Summary</title>
+  </head>
+  <body class="font-custom bg-primary-paleBlue">
+    <main
+      class="grid min-h-screen place-items-center bg-[url('/assets/pattern-background-mobile.svg')] bg-repeat-x sm:bg-[url('/assets/pattern-background-desktop.svg')]"
+    >
+      <section
+        class="shadow-primary-brightBlue/20 max-w-xs rounded-2xl bg-white shadow-2xl sm:max-w-sm"
+      >
+        <img
+          src="./assets/illustration-hero.svg"
+          alt="order summary hero img"
+          class="rounded-t-2xl"
+        />
+        <div
+          class="text-neutral-desaturatedBlue mt-4 grid gap-4 px-6 py-4 text-center sm:px-7 sm:py-5"
+        >
+          <h1
+            class="text-neutral-darkBlue place-self-center text-2xl font-black"
+          >
+            Order Summary
+          </h1>
+          <p>
+            You can now listen to millions of songs, audiobooks, and podcasts on
+            any device anywhere you like
+          </p>
+          <div
+            class="grid-cols-customGrid bg-neutral-veryPaleBlue grid rounded-xl p-4 text-sm"
+          >
+            <img src="./assets/icon-music.svg" alt="music-icon" class="" />
+            <div class="place-self-center">
+              <div class="text-neutral-darkBlue mb-1 font-bold">
+                Annual Plan
+              </div>
+              <div>$59.99/year</div>
+            </div>
+            <a
+              href="#"
+              class="text-primary-brightBlue hover:text-customHover place-self-center justify-self-end font-bold underline"
+              >Change</a
+            >
+          </div>
+
+          <button
+            type="button"
+            class="bg-primary-brightBlue shadow-primary-brightBlue/20 hover:bg-customHover w-full rounded-xl py-3 font-bold text-white shadow-xl"
+          >
+            Proceed to Payment
+          </button>
+          <button
+            type="button"
+            class="hover:text-neutral-darkBlue my-2 text-xs font-bold"
+          >
+            Cancel Order
+          </button>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="hidden">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="https://github.com/gpt-anurag">Anurag Gupta</a>.
+      </div>
+    </footer>
+  </body>
+</html>
